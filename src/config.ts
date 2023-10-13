@@ -16,7 +16,7 @@ type IConfig = {
 }
 
 export function getConfig() {
-    const config = vscode.workspace.getConfiguration("captainStack");
+    const config = vscode.workspace.getConfiguration("hama");
 
     const sites = {
         "stackoverflow.com": config.settings.sites.stackoverflow,
